@@ -19,7 +19,7 @@ Installation & Setup
 
 1. Clone the repository:
 
-git clone [repository-link]
+git clone https://github.com/SurajIngale/Wobb-Web-App-Assignment.git
 cd wobb-web-app
 
 
@@ -30,10 +30,10 @@ npm install
 
 3. Start the development server:
 
-npm start
+npm run dev
 
 
-4. Open http://localhost:3000 in your browser.
+4. Open http://localhost:portno. in your browser.
 
 
 
@@ -45,14 +45,5 @@ Icons: FontAwesome
 
 State Management: useState
 
-
-Folder Structure
-
-/src  
- ├── components/   # Reusable UI components  
- ├── pages/        # Campaigns, Messages, Profile  
- ├── styles/       # CSS files  
- ├── App.js        # Main app component  
- ├── index.js      # Entry point
 
 
