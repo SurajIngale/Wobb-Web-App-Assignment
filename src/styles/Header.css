@@ -1,0 +1,77 @@
+.header{
+  position: fixed;
+  top: 0px;
+  width: 95%;
+  background-color: white;
+  z-index: 1000;
+}
+.icon {
+  font-size: 22px;
+  margin-top: 5px;
+}
+.nav-icon{
+  font-size: 22px;
+}
+.header-top{
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-icons{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+.head-icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-bottom {
+  padding-bottom: 20px;
+  display: flex;
+  margin-left: 40px;
+
+}
+
+.filter-icon {
+  position: relative;
+  left: 70px;
+  border: rgb(90, 90, 90) 1px solid;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabs {
+  border-radius: 10px;
+  border: black 1px solid;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+}
+.tab {
+  font-size: 16px;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.active-tab {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+.tab:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+

@@ -1,0 +1,52 @@
+.messages-container{
+  border-bottom:2px solid rgba(128, 128, 128, 0.444);
+  padding-bottom: 15px;
+}
+.msg-top{
+  margin: 0;
+  padding: 0%;
+  border-bottom: 1px solid grey;
+}
+.msg-top h2{
+  margin-left: 40px;
+}
+.messages-tabs{
+  margin: 0%;
+  padding-top: 10px;
+  margin-left: 40px;
+ 
+}
+.message-tab{
+  margin-left: 20px;
+ background-color: rgba(67, 84, 188, 0.123);
+ padding: 5px 20px;
+ cursor: pointer;
+ border-radius: 5px;
+}
+.active-msg-tab{
+  border: 1px solid blue;
+}
+
+.message-bg img {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 150px;
+}
+.message-bg h3 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+margin-bottom: 5px;
+}
+.message-bg div {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+}
+
+@media (max-width: 600px){
+  
+}

@@ -1,0 +1,76 @@
+.home-container {
+    padding: 20px;
+  }
+  
+  /* Tabs Section */
+  .tabs {
+    display: flex;
+    gap: 15px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .tab-button.active-tab {
+    color: blue;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+  }
+  
+  /* Campaigns List */
+  .campaigns-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Campaign Card */
+  .campaign-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payout {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: blue;
+  }
+  
+  /* Influencers Hired */
+  .hired-text {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  /* No Campaigns Found */
+  .no-campaigns {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    margin-top: 20px;
+  }
+  
