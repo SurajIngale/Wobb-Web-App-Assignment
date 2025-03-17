@@ -1,12 +1,58 @@
-# React + Vite
+Wobb Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This project is a redesigned web version of the Wobb Mobile App using React.js. It includes Campaigns, Messages, and Profile sections with a responsive UI for desktop, tablet, and mobile views.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+Campaigns Page: View campaigns with filtering options.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Messages Page: Inbox with All and Unread tabs.
+
+Profile Page: Displays user details and settings in a grid layout.
+
+Responsive Design: Adapts to different screen sizes.
+
+
+Installation & Setup
+
+1. Clone the repository:
+
+git clone [repository-link]
+cd wobb-web-app
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Start the development server:
+
+npm start
+
+
+4. Open http://localhost:3000 in your browser.
+
+
+
+Tech Stack
+
+Frontend: React.js, React Router, CSS
+
+Icons: FontAwesome
+
+State Management: useState
+
+
+Folder Structure
+
+/src  
+ ├── components/   # Reusable UI components  
+ ├── pages/        # Campaigns, Messages, Profile  
+ ├── styles/       # CSS files  
+ ├── App.js        # Main app component  
+ ├── index.js      # Entry point
+
+
