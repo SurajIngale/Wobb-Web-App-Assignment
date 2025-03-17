@@ -19,8 +19,6 @@ const HomePage = () => {
         {currentTab === "Hired" && <HiredCampaigns />}
         {currentTab === "Closed" && <ClosedCampaigns />}
       </div>
-
-      {/* Bottom Navigation */}
       
     </div>
   );

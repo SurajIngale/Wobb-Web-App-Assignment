@@ -12,7 +12,7 @@ const Header = ({ onFilterClick, onTabChange, currentTab }) => {
 
   return (
     <header className="header">
-      {/* Top Section: Greeting & Notification Icon */}
+     
       <div className="header-top">
         <h2 className="greeting">Hi, Woober</h2>
         <div className="head-icon">
@@ -34,7 +34,6 @@ const Header = ({ onFilterClick, onTabChange, currentTab }) => {
         </div>
       </div>
 
-      {/* Bottom Section: Filter Icon & Tabs */}
       <div className="header-bottom">
         <FontAwesomeIcon icon={faFilter} className="filter-icon" onClick={onFilterClick} />
         <div className="tabs">
