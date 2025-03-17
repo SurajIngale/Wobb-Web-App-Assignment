@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "./Header";
-import BottomNav from "./BottomNav";
 import AllCampaigns from "./Capaigns/AllCampaigns";
 import AppliedCampaigns from "./Capaigns/AppliedCampaigns";
 import HiredCampaigns from "./Capaigns/HiredCampaigns";

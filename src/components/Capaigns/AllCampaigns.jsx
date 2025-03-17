@@ -7,30 +7,30 @@ const AllCampaigns = () => {
   const campaigns = [
     {
       brand: "Oziva",
+      tagline: "Manage Weight Naturally",
       img: "/oziva.jpg",
       logo: "/oziva-logo.jpg",
-      payout: "Barter Worth ₹5,000",
       hired: 40,
     },
     {
-      brand: "Adidas",
+      brand: "Himalaya",
+      tagline: "Himalaya BabyCare",
       img: "/himalaya.jpg",
       logo: "/himalaya-logo.png",
-      payout: "Barter Worth ₹4,000",
       hired: 60,
     },
     {
       brand: "Oziva",
+      tagline: "Manage Weight Naturally",
       img: "/oziva.jpg",
       logo: "/oziva-logo.jpg",
-      payout: "Barter Worth ₹5,000",
       hired: 40,
     },
     {
-      brand: "Adidas",
+      brand: "Himalaya",
+      tagline: "Himalaya BabyCare",
       img: "/himalaya.jpg",
       logo: "/himalaya-logo.png",
-      payout: "Barter Worth ₹4,000",
       hired: 60,
     },
   ];
@@ -43,7 +43,7 @@ const AllCampaigns = () => {
           <div className="inner-card">
             <img className="compny-logo" src={campaign.logo} alt="" />
             <div className="card-info1">
-              <p>Manage Weight Naturally</p>
+              <p>{campaign.tagline}</p>
               <button>Profile Pending</button>
             </div>
             <div className="card-info2">
